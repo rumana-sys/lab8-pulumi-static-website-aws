@@ -1,0 +1,1 @@
+# lab8-pulumi-static-website-aws
