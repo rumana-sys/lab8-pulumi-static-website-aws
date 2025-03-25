@@ -1,6 +1,11 @@
 name: pulumi-static-website
 description: A TypeScript program to deploy a static website on AWS
-runtime: nodejs
+runtime: yaml
+resources:
+  my-bucket:
+    type: aws:s3:Bucket
+outputs:
+  bucketName: ${my-bucket.bucket}
 config:
   pulumi:tags:
     value:
