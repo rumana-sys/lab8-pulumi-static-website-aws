@@ -1,14 +1,12 @@
 {
-    "name": "ppinfra",
-    "main": "index.ts",
+    "name": "myworkshop",
     "devDependencies": {
         "@types/node": "^18",
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "@pulumi/aws": "^6.0.0",
-        "@pulumi/awsx": "^2.0.2",
+        "@pulumi/aws": "^6.72.0",
         "@pulumi/pulumi": "^3.113.0",
-        "@pulumi/synced-folder": "^0.11.1"
+        "@pulumi/synced-folder": "^0.0.9"
     }
 }
